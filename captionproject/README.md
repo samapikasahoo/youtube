@@ -104,7 +104,7 @@ Press CTRL + C to stop the process.
 
 
 
-If you need to add more controllers to the project just create a new file in `/controllers/` and use them in the routes.
+
 ## Bugs or improvements
 
 Every project needs improvements, Feel free to report any bugs or improvements. Pull requests are always welcome.
