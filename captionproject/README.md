@@ -1,40 +1,29 @@
 # Nodejs Expressjs MongoDB Ready-to-use API Project Structure
 
-[![Author](http://img.shields.io/badge/author-@samapikasahoo-blue.svg)](https://www.linkedin.com/in/samapika-sahoo/) [![GitHub license](https://img.shields.io/github/license/maitraysuthar/rest-api-nodejs-mongodb.svg)](https://github.com/maitraysuthar/rest-api-nodejs-mongodb/blob/master/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/maitraysuthar/rest-api-nodejs-mongodb) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/samapikasahoo/rest-api-nodejs-mongodb?utm_source=github.com&utm_medium=referral&utm_content=maitraysuthar/rest-api-nodejs-mongodb&utm_campaign=Badge_Coverage) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/samapikasahoo/rest-api-nodejs-mongodb?utm_source=github.com&utm_medium=referral&utm_content=samapikasahoo/rest-api-nodejs-mongodb&utm_campaign=Badge_Grade) ![Travis (.com)](https://img.shields.io/travis/com/maitraysuthar/rest-api-nodejs-mongodb)
+[![Author](http://img.shields.io/badge/author-@samapikasahoo-blue.svg)](https://www.linkedin.com/in/samapika-sahoo/) [![GitHub license][GitHub repo size](https://api.codacy.com/project/badge/Coverage/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/samapikasahoo/rest-api-nodejs-mongodb?utm_source=github.com&utm_medium=referral&utm_content=samapikasahoo/rest-api-nodejs-mongodb&utm_campaign=Badge_Coverage) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/samapikasahoo/rest-api-nodejs-mongodb?utm_source=github.com&utm_medium=referral&utm_content=samapikasahoo/rest-api-nodejs-mongodb&utm_campaign=Badge_Grade) ![Travis (.com)](https://img.shields.io/travis/com/maitraysuthar/rest-api-nodejs-mongodb)
 
-A ready-to-use boilerplate for REST API Development with Node.js, Express, and MongoDB
+ REST API Development with Node.js, Express, and MongoDB
 
 ## Getting started
 
-This is a basic API skeleton written in JavaScript ES2015. Very useful to building a RESTful web APIs for your front-end platforms like Android, iOS or JavaScript frameworks (Angular, Reactjs, etc).
+This is a basic API skeleton written in JavaScript ES2015. Very useful to building a RESTful web APIs for your front-end platforms like Android, iOS or JavaScript frameworks ( Reactjs, etc).
 
 This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests.
 
 ## Advertise for Job/Work Contract
 
-I am open for a good job or work contract. You can contact me directly on my email ([maitraysuthar@gmail.com](mailto:maitraysuthar@gmail.com "maitraysuthar@gmail.com")) or you can download my CV from my personal [website](https://maitraysuthar.github.io/portfolio/).
+I am open for a good job or work contract. You can contact me directly on my email ([samapika.sahoo2@gmail.com](mailto:maitraysuthar@gmail.com "samapika.sahoo2@gmail.com")).
 
-## Buy me a Coffee
 
-If you consider my project as helpful stuff, You can appreciate me or my hard work and time spent to create this helpful structure with buying me a coffee.
-
-<a href="https://www.buymeacoffee.com/36GgOoQ2f" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Features
 
-- Basic Authentication (Register/Login with hashed password)
-- Account confirmation with 4 (Changeable) digit OTP.
-- Email helper ready just import and use.
-- JWT Tokens, make requests with a token after login with `Authorization` header with value `Bearer yourToken` where `yourToken` will be returned in Login response.
-- Pre-defined response structures with proper status codes.
-- Included CORS.
+
 - **Book** example with **CRUD** operations.
 - Validations added.
 - Included API collection for Postman.
 - Light-weight project.
 - Test cases with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
-- Code coverage with [Istanbuljs (nyc)](https://istanbul.js.org/).
-- Included CI (Continuous Integration) with [Travis CI](https://travis-ci.org).
 - Linting with [Eslint](https://eslint.org/).
 
 ## Software Requirements
@@ -49,7 +38,7 @@ If you consider my project as helpful stuff, You can appreciate me or my hard wo
 1.  Clone the project from github. Change "myproject" to your project name.
 
 ```bash
-git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproject
+git clone https://github.com/samapikasahoo/rest-api-nodejs-mongodb.git ./myproject
 ```
 
 ### Using manual download ZIP
@@ -59,20 +48,12 @@ git clone https://github.com/maitraysuthar/rest-api-nodejs-mongodb.git ./myproje
 
 ### Install npm dependencies after installing (Git or manual download)
 
-```bash
+```
 cd myproject
 npm install
 ```
 
-### Setting up environments
 
-1.  You will find a file named `.env.example` on root directory of project.
-2.  Create a new file by copying and pasting the file and then renaming it to just `.env`
-    ```bash
-    cp .env.example .env
-    ```
-3.  The file `.env` is already ignored, so you never commit your credentials.
-4.  Change the values of the file to your environment. Helpful comments added to `.env.example` file to understand the constants.
 
 ## Project structure
 
@@ -82,39 +63,33 @@ npm install
 ├── package.json
 ├── bin
 │   └── www
-├── controllers
-│   ├── AuthController.js
-│   └── BookController.js
+
 ├── models
-│   ├── BookModel.js
-│   └── UserModel.js
-├── routes
-│   ├── api.js
-│   ├── auth.js
-│   └── book.js
-├── middlewares
-│   ├── jwt.js
-├── helpers
-│   ├── apiResponse.js
-│   ├── constants.js
-│   ├── mailer.js
-│   └── utility.js
-├── test
-│   ├── testConfig.js
-│   ├── auth.js
-│   └── book.js
-└── public
-    ├── index.html
-    └── stylesheets
-        └── style.css
+│   ├── subscribers.js
+│   
+-
+│ 
+├── src
+│   ├──app.js 
+│   ├──createDatabase.js 
+│   └──data.js 
+    └──index.js 
+
+
 ```
 
 ## How to run
 
 ### Running API server locally
 
-```bash
-npm run dev
+```node src/index.js file to connect and start server
+Run node src/createDatabase.js to create Database on local your local computer(Only works if you have MongoDB installed in local machine)
+GET [http://localhost:3000/subscribers](http://localhost:3000/subscribers) Response with an array of subscribers(an Object)
+GET [http://localhost:3000/subscribers/names](http://localhost:3000/subscribers/names) Response with an array of subscribers(an Object with only two fields name and subscribedChannel)
+GET [http://localhost:3000/subscribers/:id](http://localhost:3000/subscribers/:id)
+Error Handling
+Response with a subscriber*(an object)* with given id
+Response with status code 400 and Error message({message: error.message}) if id does not match
 ```
 
 You will know server is running by checking the output of the command `npm run dev`
