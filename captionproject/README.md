@@ -81,7 +81,7 @@ npm install
 
 
 ```node src/index.js file to connect and start server
-server will on http://localhost:3000
+server will run  on http://localhost:3000
 Run node src/createDatabase.js to create Database on local your local computer(Only works if you have MongoDB installed in local machine)
 GET [http://localhost:3000/subscribers](http://localhost:3000/subscribers) Response with an array of subscribers(an Object)
 GET [http://localhost:3000/subscribers/names](http://localhost:3000/subscribers/names) Response with an array of subscribers(an Object with only two fields name and subscribedChannel)
