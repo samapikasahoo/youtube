@@ -111,7 +111,7 @@ Every project needs improvements, Feel free to report any bugs or improvements. 
 ## License
 
 This project is open-sourced software licensed under the MIT License. See the LICENSE file for more information.
-## Next Steps
+## Follow link for more information
 
 - [MongoDB Documentation](https://docs.mongodb.com/manual/)
 - https://mongoosejs.com/docs/queries.html
