@@ -47,7 +47,7 @@ git clone https://github.com/samapikasahoo/rest-api-nodejs-mongodb.git ./myproje
 ### Install npm dependencies after installing (Git or manual download)
 
 ```
-cd myproject
+cd captionproject
 npm install
 ```
 
